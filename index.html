@@ -6,29 +6,70 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Reto Clase 1</title>
 </head>
 <body>
     <header>
-        <div class="nav">
-            <img src="" alt="logo">
-            <menu>
-                <ul class="tfont mstl">
-                    <li><a href="index.html">inicio</a></li>
-                    <li><a href="encuentranos.html">Encuentranos</a></li>
-                    <li><a href="conocenos.html">Conocenos</a></li>
-                    <li><a href="integrate.html">Integrate</a></li>
-                    <li><a href="contactanos.html">Contactanos</a></li>
-                </ul>
-            </menu>
+        <div class="container-fluid pt-2">
+            <div class="row">
+                <div class="col-6 d-flex align-items-center justify-content-center">
+                    <span><i class="fab fa-whatsapp px-2 "></i> <a href="https://wa.me/573113150311" target="_blank" class="link-light">+57 311 315 0311</a> </span>
+                </div>
+                <div class="col-6 d-flex justify-content-center align-items-center" >
+                    <i class="fab fa-facebook-f px-2"></i>
+                    <i class="fab fa-instagram px-2"></i>
+                </div>
+            </div>
         </div>
-        <h1 class="tfont tcenter">Nombre Principal</h1>
-        <p class="tcenter pfont">slogan</p>
-        <div class="ecenter">
-            <button class="btn tfont">texto</button>
+        <div class="container ">
+            <div class="container d-flex justify-content-center mt-5">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+                    <div class="container p-0">
+                        <a class="navbar-brand bg-black mx-0" href="index.html"><img src="media/logoletter.png" width="100px"></a>
+                        <button class="navbar-toggler text-center mx-2" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link" href="#">Inicio</a>
+                                <a class="nav-link" href="#">Conocenos</a>
+                                <a class="nav-link" href="#">Encuentranos</a>
+                                <a class="nav-link" href="#">Integrate</a>
+                                <a class="nav-link" href="#">Contactanos</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
         </div>
     </header>
-    <main>
+    <div class="hcontent">
+        <div class="container">
+            <div class="row hrow">
+                <div class=" col-sm-12 col-lg-7 d-flex justify-content-lg-end justify-content-center align-items-center text-center text-lg-end">
+                    <div class="container">
+                        <h1 class="text-light">Lo hacemos <br> posible</h1>
+                        <p class="text-light">Una forma diferente de ver el mundo</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-5 px-lg-3 d-flex align-items-lg-center align-items-start justify-content-center justify-content-lg-start">
+                    <div class="card ">
+                        <div class="card-body ">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-dark">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="separador "></div>
+    <div class="container">
         <div class="tfont mmstl ecenter">
             <div class="item tcenter">
                 <h2><a href="encuentranos.html">encuentranos</a></h2>
@@ -43,10 +84,17 @@
                 <h2><a href="contactanos.html">contacto</a></h2>
             </div>
         </div>
-    </main>
-    <footer class="nav">
-        <div><p class="tfont">texto</p></div>
-        <div> <button>promo</button> </div>
-    </footer>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <p class="tfont">texto</p>
+            </div>
+            <div class="col-6 d-flex justify-content-end">
+                <button>promo</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
