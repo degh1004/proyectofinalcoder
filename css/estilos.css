@@ -6,6 +6,7 @@ header {
 
 .hcontent {
   background-image: url("/media/bgheader.jpg");
+  background-color: #2fa0ca;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
